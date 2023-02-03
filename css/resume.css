@@ -1,4 +1,4 @@
-h1{
+h1 {
    font-family: 'Poiret One', sans-serif;
    font-weight: 400;
    font-size: 3em;
@@ -7,7 +7,7 @@ h1{
    color: #534462;
 }
 
-h3{
+h3 {
    border-bottom: 3px dotted #4A5CB7;
 
    text-align: left;
@@ -30,77 +30,77 @@ hr {
    border-bottom: 1px solid #ccd;
 }
 
-#contact dt{
+#contact dt {
    margin: 0;
    float: left;
    clear: left;
 }
 
-#contact dd{
+#contact dd {
    text-align: right;
    margin: 0;
 }
 
-#container{
+#container {
    padding-top: 0;
 }
 
-.job-organization{
+.job-title {
    display: inline;
 }
 
-.job-dates{
+.job-dates {
    display: inline;
 }
 
-.job-dates:before{
+.job-dates:before {
    content: " ― "
 }
 
-.job-duties{
+.job-duties {
    list-style-type: circle;
 }
 
-.credits{
+.credits {
    border-collapse: collapse;
    margin-bottom: 1em;
 }
 
-.credits th{
+.credits th {
    color: #4A5CB7;
    border-bottom: 1px solid #000;
    display: none;
 }
 
-.credits tr{
+.credits tr {
    display: block;
 }
 
-.credits tbody tr:nth-child(even){
+.credits tbody tr:nth-child(even) {
    background: #EEF;
- }
+}
 
-.credits tbody td:first-child:before{
+.credits tbody td:first-child:before {
    font-weight: 600;
    content: "Show: ";
 }
 
-.credits tbody td:first-child + td:before{
+.credits tbody td:first-child+td:before {
    font-weight: 600;
    content: "Venue: ";
 }
 
-.credits tbody td:first-child + td + td:before{
+.credits tbody td:first-child+td+td:before {
    font-weight: 600;
    content: "Director: ";
 }
 
-.credits tbody td:first-child + td + td + td:before{
+.credits tbody td:first-child+td+td+td:before {
    font-weight: 600;
    content: "Role: ";
 }
 
-.credits td{
+.credits td {
    display: block;
    font-size: 0.9em;
    padding: 0.3em;
@@ -109,38 +109,38 @@ hr {
 }
 
 @media only screen and (min-width: 25em) {
-   h1{
+   h1 {
       font-size: 4em;
    }
 
-   h2{
+   h2 {
       font-size: 1.85em;
    }
 
 }
 
 @media only screen and (min-width: 35em) {
-   .credits{
+   .credits {
       display: table;
       border-collapse: collapse;
       margin-bottom: 1em;
    }
 
-   .credits th{
+   .credits th {
       display: table-cell;
       color: #4A5CB7;
       border-bottom: 1px solid #000;
    }
 
-   .credits tbody tr:nth-child(even){
+   .credits tbody tr:nth-child(even) {
       background: #EEF;
-    }
+   }
 
-   .credits tr{
+   .credits tr {
       display: table-row;
    }
 
-   .credits td{
+   .credits td {
       display: table-cell;
       font-size: 0.9em;
       padding: 0.3em;
@@ -148,28 +148,28 @@ hr {
       orphans: 2;
    }
 
-   .credits tbody td:first-child:before{
+   .credits tbody td:first-child:before {
       content: "";
    }
 
-   .credits tbody td:first-child + td:before{
+   .credits tbody td:first-child+td:before {
       content: "";
    }
 
-   .credits tbody td:first-child + td + td:before{
+   .credits tbody td:first-child+td+td:before {
       font-weight: 600;
       content: "";
    }
 
-   .credits tbody td:first-child + td + td + td:before{
+   .credits tbody td:first-child+td+td+td:before {
       font-weight: 600;
       content: "";
    }
 }
-   
+
 
 @media only screen and (min-width: 50em) {
-   h3{
+   h3 {
       font-size: 1.33em;
       text-align: right;
 
@@ -201,19 +201,19 @@ hr {
       border-right: 3px dotted #4A5CB7;
    }
 
-   h1{
+   h1 {
       font-size: 4em;
       margin-left: 4%;
       padding-right: 2%;
    }
 
-   h2{
+   h2 {
       font-size: 1.85em;
       margin-left: 4%;
       padding-right: 2%;
    }
 
-   #contact{
+   #contact {
       background: none;
       margin: 1.5em 0;
       padding: 1.5em 2%;
@@ -223,13 +223,13 @@ hr {
       border-bottom: none;
    }
 
-   #contact dt{
+   #contact dt {
       display: block;
       float: left;
       margin: 0;
    }
 
-   #contact dd{
+   #contact dd {
       display: block;
       margin: 0;
       text-align: right;
@@ -238,11 +238,11 @@ hr {
 
 
 @media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
+(-o-min-device-pixel-ratio: 5/4),
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi) {
 
-   header{
+   header {
       text-align: right;
       width: 55.5%;
       padding: 0 2%;
@@ -251,16 +251,16 @@ hr {
       clear: left;
    }
 
-   h1{
+   h1 {
       font-size: 3em;
    }
 
-   h2{
+   h2 {
       padding: 0;
       padding-bottom: 0.25em;
    }
 
-   h3{
+   h3 {
       font-size: 1.33em;
       text-align: right;
 
@@ -278,11 +278,11 @@ hr {
       padding-bottom: 0;
    }
 
-   nav{
-      display:none;
+   nav {
+      display: none;
    }
 
-   .section-contents{
+   .section-contents {
       border-left: 3px dotted #4A5CB7;
       margin-left: 21.5%;
       padding-left: 2%;
@@ -291,24 +291,24 @@ hr {
       margin-top: 0em;
    }
 
-   .credits{
+   .credits {
       display: table;
       border-collapse: collapse;
       margin-bottom: 1em;
    }
 
-   .credits th{
+   .credits th {
       display: table-cell;
       color: #4A5CB7;
       border-bottom: 1px solid #000;
    }
 
-   .credits tr{
+   .credits tr {
       display: table-row;
       border-bottom: 1px solid #ddd;
    }
 
-   .credits td{
+   .credits td {
       display: table-cell;
       font-size: 0.9em;
       padding: 0.3em;
@@ -316,20 +316,20 @@ hr {
       orphans: 2;
    }
 
-   .credits tbody td:first-child:before{
+   .credits tbody td:first-child:before {
       content: "";
    }
 
-   .credits tbody td:first-child + td:before{
+   .credits tbody td:first-child+td:before {
       content: "";
    }
 
-   .credits tbody td:first-child + td + td:before{
+   .credits tbody td:first-child+td+td:before {
       font-weight: 600;
       content: "";
    }
 
-   .credits tbody td:first-child + td + td + td:before{
+   .credits tbody td:first-child+td+td+td:before {
       font-weight: 600;
       content: "";
    }
@@ -339,7 +339,7 @@ hr {
       margin: 0;
    }
 
-   #contact{
+   #contact {
       background: none;
       margin: 0;
       padding: 1em 2%;
@@ -349,24 +349,23 @@ hr {
       display: inline-block;
    }
 
-   #contact dt{
+   #contact dt {
       display: block;
       float: left;
       margin: 0;
    }
 
-   #contact dd{
+   #contact dd {
       display: block;
       margin: 0;
       text-align: right;
    }
 
-   #contact a{
+   #contact a {
       text-decoration: none;
    }
-   
-   #container{
+
+   #container {
       border: none;
    }
 }
-
