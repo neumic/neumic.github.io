@@ -23,6 +23,10 @@ hr {
    display: none;
 }
 
+ul {
+   list-style-type: circle;
+}
+
 #contact {
    background: #EEF;
    margin: 0 1em;
@@ -57,57 +61,6 @@ hr {
    content: " ― "
 }
 
-.job-duties {
-   list-style-type: circle;
-}
-
-.credits {
-   border-collapse: collapse;
-   margin-bottom: 1em;
-}
-
-.credits th {
-   color: #4A5CB7;
-   border-bottom: 1px solid #000;
-   display: none;
-}
-
-.credits tr {
-   display: block;
-}
-
-.credits tbody tr:nth-child(even) {
-   background: #EEF;
-}
-
-.credits tbody td:first-child:before {
-   font-weight: 600;
-   content: "Show: ";
-}
-
-.credits tbody td:first-child+td:before {
-   font-weight: 600;
-   content: "Venue: ";
-}
-
-.credits tbody td:first-child+td+td:before {
-   font-weight: 600;
-   content: "Director: ";
-}
-
-.credits tbody td:first-child+td+td+td:before {
-   font-weight: 600;
-   content: "Role: ";
-}
-
-.credits td {
-   display: block;
-   font-size: 0.9em;
-   padding: 0.3em;
-   widows: 2;
-   orphans: 2;
-}
-
 @media only screen and (min-width: 25em) {
    h1 {
       font-size: 4em;
@@ -119,53 +72,7 @@ hr {
 
 }
 
-@media only screen and (min-width: 35em) {
-   .credits {
-      display: table;
-      border-collapse: collapse;
-      margin-bottom: 1em;
-   }
-
-   .credits th {
-      display: table-cell;
-      color: #4A5CB7;
-      border-bottom: 1px solid #000;
-   }
-
-   .credits tbody tr:nth-child(even) {
-      background: #EEF;
-   }
-
-   .credits tr {
-      display: table-row;
-   }
-
-   .credits td {
-      display: table-cell;
-      font-size: 0.9em;
-      padding: 0.3em;
-      widows: 2;
-      orphans: 2;
-   }
-
-   .credits tbody td:first-child:before {
-      content: "";
-   }
-
-   .credits tbody td:first-child+td:before {
-      content: "";
-   }
-
-   .credits tbody td:first-child+td+td:before {
-      font-weight: 600;
-      content: "";
-   }
-
-   .credits tbody td:first-child+td+td+td:before {
-      font-weight: 600;
-      content: "";
-   }
-}
+@media only screen and (min-width: 35em) {}
 
 
 @media only screen and (min-width: 50em) {
@@ -289,49 +196,6 @@ hr {
       width: 72.5%;
       margin-bottom: 0em;
       margin-top: 0em;
-   }
-
-   .credits {
-      display: table;
-      border-collapse: collapse;
-      margin-bottom: 1em;
-   }
-
-   .credits th {
-      display: table-cell;
-      color: #4A5CB7;
-      border-bottom: 1px solid #000;
-   }
-
-   .credits tr {
-      display: table-row;
-      border-bottom: 1px solid #ddd;
-   }
-
-   .credits td {
-      display: table-cell;
-      font-size: 0.9em;
-      padding: 0.3em;
-      widows: 2;
-      orphans: 2;
-   }
-
-   .credits tbody td:first-child:before {
-      content: "";
-   }
-
-   .credits tbody td:first-child+td:before {
-      content: "";
-   }
-
-   .credits tbody td:first-child+td+td:before {
-      font-weight: 600;
-      content: "";
-   }
-
-   .credits tbody td:first-child+td+td+td:before {
-      font-weight: 600;
-      content: "";
    }
 
    hr {
