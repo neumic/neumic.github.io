@@ -52,6 +52,9 @@ ul {
    content: " ― "
 }
 
+.no-display {
+   display: none;
+}
 
 @media only screen and (min-width: 50em) {
    h3 {
