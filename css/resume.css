@@ -167,6 +167,10 @@ ul {
       display: none;
    }
 
+   section {
+      page-break-inside: avoid;
+   }
+
    .section-contents {
       border-left: 3px dotted #4A5CB7;
       margin-left: 21.5%;
